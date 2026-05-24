@@ -69,4 +69,8 @@ http://127.0.0.1:5000
 
 ## 👩‍💻 Developed By
 
+<<<<<<< HEAD
 Siya Priya
+=======
+Siya Priya
+>>>>>>> b6df96487624138bc0f1dea254a9ea8f97bfb112
