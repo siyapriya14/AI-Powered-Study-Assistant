@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 AI Study Assistant</h1>
+
+        <p class="subtitle">
+            Upload your PDF notes and get instant summary
+        </p>
+
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+
+            <input type="file" name="pdf" required>
+
+            <button type="submit">
+                Upload PDF
+            </button>
+
+        </form>
+
+        {% if message %}
+
+        <p class="success-message">
+            {{ message }}
+        </p>
+
+        {% endif %}
+
+        {% if summary %}
+
+        <div class="summary-box">
+
+            <h2>Summary</h2>
+
+            <p>{{ summary }}</p>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+
+</html>
