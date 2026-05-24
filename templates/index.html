@@ -51,6 +51,63 @@
 
         </div>
 
+        <form action="/quiz" method="POST">
+
+            <button type="submit">
+                Generate Quiz
+            </button>
+
+        </form>
+
+        {% endif %}
+
+        {% if questions %}
+
+        <div class="quiz-box">
+
+            <h2>Generated Quiz</h2>
+
+            {% for question in questions %}
+
+            <p>{{ question }}</p>
+
+            {% endfor %}
+
+        </div>
+
+        {% endif %}
+
+        <div class="chat-box">
+
+            <h2>Chat With PDF</h2>
+
+            <form action="/chat" method="POST">
+
+                <input
+                    type="text"
+                    name="question"
+                    placeholder="Ask something from PDF..."
+                    required
+                >
+
+                <button type="submit">
+                    Ask
+                </button>
+
+            </form>
+
+        </div>
+
+        {% if answer %}
+
+        <div class="answer-box">
+
+            <h2>Answer</h2>
+
+            <p>{{ answer }}</p>
+
+        </div>
+
         {% endif %}
 
     </div>

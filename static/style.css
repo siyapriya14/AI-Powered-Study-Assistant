@@ -45,7 +45,7 @@ button{
     border-radius:6px;
     cursor:pointer;
     font-size:16px;
-    margin-left:10px;
+    margin-top:20px;
     transition:0.3s;
 }
 
@@ -59,7 +59,8 @@ button:hover{
     margin-top:20px;
 }
 
-.summary-box{
+.summary-box,
+.quiz-box{
     background:#1e1e1e;
     padding:30px;
     border-radius:12px;
@@ -69,7 +70,21 @@ button:hover{
     box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 
-.summary-box h2{
+.summary-box h2,
+.quiz-box h2{
     color:#00adb5;
     margin-bottom:20px;
+}
+.chat-box,
+.answer-box{
+    background:#1e1e1e;
+    padding:30px;
+    border-radius:12px;
+    margin-top:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.chat-box h2,
+.answer-box h2{
+    color:#00adb5;
 }

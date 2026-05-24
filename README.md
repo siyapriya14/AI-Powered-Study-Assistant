@@ -1,16 +1,21 @@
-# 📚 AI Study Assistant
+# 📚 AI-Powered Study Assistant
 
-AI Study Assistant is a Flask-based web application that allows users to upload PDF notes and get summarized content instantly.
+AI-Powered Study Assistant is a Flask-based web application that helps students upload PDF notes, generate summaries, create quizzes, and interact with uploaded study materials.
 
-## Features
+---
 
-- Upload PDF files
-- Extract text from PDF
-- Generate summary
-- Clean dark UI
-- Flask backend
+## 🚀 Features
 
-## Technologies Used
+✅ Upload PDF Notes  
+✅ Extract Text from PDF  
+✅ Generate Smart Summary  
+✅ Generate Quiz Questions  
+✅ Chat With PDF  
+✅ Modern Dark UI  
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Flask
@@ -18,16 +23,50 @@ AI Study Assistant is a Flask-based web application that allows users to upload 
 - CSS
 - pdfplumber
 
-## How to Run
+---
 
-1. Install requirements
+## 📸 Screenshots
+
+### Home Page
+
+(Add screenshot here)
+
+### Summary Generation
+
+(Add screenshot here)
+
+### Quiz Generator
+
+(Add screenshot here)
+
+---
+
+## ▶️ How to Run
+
+### 1. Install dependencies
 
 pip install -r requirements.txt
 
-2. Run app
+### 2. Run the app
 
 python app.py
 
-3. Open browser
+### 3. Open browser
 
 http://127.0.0.1:5000
+
+---
+
+## 🔮 Future Improvements
+
+- Real AI integration
+- User authentication
+- Database storage
+- Cloud deployment
+- Multi-language support
+
+---
+
+## 👩‍💻 Developed By
+
+Siya Priya
