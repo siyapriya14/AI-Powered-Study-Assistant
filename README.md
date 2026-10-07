@@ -1,76 +1,37 @@
 # 📚 AI-Powered Study Assistant
 
-AI-Powered Study Assistant is a Flask-based web application that helps students upload PDF notes, generate summaries, create quizzes, and interact with uploaded study materials.
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+
+A Flask-based web application designed to accelerate student learning workflows by processing PDF notes, extracting contextual information, generating summaries, and dynamically creating interactive quizzes.
 
 ---
 
-## 🚀 Features
+## 💡 Key Features
 
-✅ Upload PDF Notes  
-✅ Extract Text from PDF  
-✅ Generate Smart Summary  
-✅ Generate Quiz Questions  
-✅ Chat With PDF  
-✅ Modern Dark UI  
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Flask
-- HTML
-- CSS
-- pdfplumber
+- **PDF Text Extraction:** High-accuracy PDF parsing and document text processing via `pdfplumber`.
+- **Automated Summarization:** Algorithmic summary generation to distill long lecture notes into key insights.
+- **Dynamic Quiz Generator:** Instant generation of quiz questions based on uploaded study materials.
+- **Interactive Contextual Q&A:** Query interface allowing students to interact directly with uploaded documents.
+- **Modern Dark UI:** Clean, modern HTML5/CSS3 frontend interface.
 
 ---
 
-## 📸 Screenshots
+## 🛠️ Tech Stack
 
-### Home Page
-
-(Add screenshot here)
-
-### Summary Generation
-
-(Add screenshot here)
-
-### Quiz Generator
-
-(Add screenshot here)
+- **Backend:** Python, Flask
+- **Text Processing & Parsing:** `pdfplumber`
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Infrastructure:** Gunicorn (ASGI/WSGI), Render Cloud Hosting
 
 ---
 
-## ▶️ How to Run
+## ⚡ Local Installation
 
-### 1. Install dependencies
-
-pip install -r requirements.txt
-
-### 2. Run the app
-
-python app.py
-
-### 3. Open browser
-
-http://127.0.0.1:5000
-
----
-
-## 🔮 Future Improvements
-
-- Real AI integration
-- User authentication
-- Database storage
-- Cloud deployment
-- Multi-language support
-
----
-
-## 👩‍💻 Developed By
-
-<<<<<<< HEAD
-Siya Priya
-=======
-Siya Priya
->>>>>>> b6df96487624138bc0f1dea254a9ea8f97bfb112
+### 1. Clone & Setup Environment
+```bash
+git clone [https://github.com/siyapriya14/AI-Powered-Study-Assistant.git](https://github.com/siyapriya14/AI-Powered-Study-Assistant.git)
+cd AI-Powered-Study-Assistant
+python -m venv .venv
+.venv\Scripts\activate
